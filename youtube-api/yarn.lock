@@ -1741,6 +1741,11 @@ aws4@^1.8.0:
   resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.8.0.tgz#f0e003d9ca9e7f59c7a508945d7b2ef9a04a542f"
   integrity sha512-ReZxvNHIOv88FlT7rxcXIIC0fPt4KZqZbOlivyWtXLt8ESx84zd3kMC6iK5jVeS2qt+g7ftS7ye4fi06X5rtRQ==
 
+axios@^0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.7.0.tgz#489c269044d5066dfa2c64c749cb131b176f4a7a"
+  integrity sha1-SJwmkETVBm36LGTHScsTGxdvSno=
+
 axobject-query@^2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/axobject-query/-/axobject-query-2.0.2.tgz#ea187abe5b9002b377f925d8bf7d1c561adf38f9"
@@ -2454,6 +2459,11 @@ color@^3.0.0:
   dependencies:
     color-convert "^1.9.1"
     color-string "^1.5.2"
+
+colors@^1.0.3:
+  version "1.3.3"
+  resolved "https://registry.yarnpkg.com/colors/-/colors-1.3.3.tgz#39e005d546afe01e01f9c4ca8fa50f686a01205d"
+  integrity sha512-mmGt/1pZqYRjMxB1axhTo16/snVZ5krrKkcmMeVKxzECMMXoCgnvTPp10QgHfcbQZw8Dq2jMNG6je4JlWU0gWg==
 
 combined-stream@^1.0.6, combined-stream@~1.0.6:
   version "1.0.8"
@@ -4043,6 +4053,11 @@ form-data@~2.3.2:
     combined-stream "^1.0.6"
     mime-types "^2.1.12"
 
+format-number@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/format-number/-/format-number-1.0.2.tgz#cb63d31454d08b424e6e40c009069ec08a9c8ba4"
+  integrity sha1-y2PTFFTQi0JObkDACQaewIqci6Q=
+
 forwarded@~0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/forwarded/-/forwarded-0.1.2.tgz#98c23dab1175657b8c0573e8ceccd91b0ff18c84"
@@ -4166,6 +4181,11 @@ get-value@^2.0.3, get-value@^2.0.6:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/get-value/-/get-value-2.0.6.tgz#dc15ca1c672387ca76bd37ac0a395ba2042a2c28"
   integrity sha1-3BXKHGcjh8p2vTesCjlbogQqLCg=
+
+get-youtube-id@^0.1.3:
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/get-youtube-id/-/get-youtube-id-0.1.3.tgz#eb76a0534cb7e9d1fcce5d4b61a0820d32d6855d"
+  integrity sha1-63agU0y36dH8zl1LYaCCDTLWhV0=
 
 getpass@^0.1.1:
   version "0.1.7"
@@ -6073,7 +6093,7 @@ minimist@0.0.8:
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-0.0.8.tgz#857fcabfc3397d2625b8228262e86aa7a011b05d"
   integrity sha1-hX/Kv8M5fSYluCKCYuhqp6ARsF0=
 
-minimist@^1.1.1, minimist@^1.2.0:
+minimist@^1.1.0, minimist@^1.1.1, minimist@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.0.tgz#a35008b20f41383eec1fb914f4cd5df79a264284"
   integrity sha1-o1AIsg9BOD7sH7kU9M1d95omQoQ=
@@ -7872,7 +7892,7 @@ react-dev-utils@^9.0.3:
     strip-ansi "5.2.0"
     text-table "0.2.0"
 
-react-dom@16.9.0:
+react-dom@^16.9.0:
   version "16.9.0"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.9.0.tgz#5e65527a5e26f22ae3701131bcccaee9fb0d3962"
   integrity sha512-YFT2rxO9hM70ewk9jq0y6sQk8cL02xm4+IzYBz75CQGlClQQ1Bxq0nhHF6OtSbit+AIahujJgb/CPRibFkMNJQ==
@@ -7953,7 +7973,7 @@ react-scripts@3.1.1:
   optionalDependencies:
     fsevents "2.0.7"
 
-react@16.9.0:
+react@^16.9.0:
   version "16.9.0"
   resolved "https://registry.yarnpkg.com/react/-/react-16.9.0.tgz#40ba2f9af13bc1a38d75dbf2f4359a5185c4f7aa"
   integrity sha512-+7LQnFBwkiw+BobzOF6N//BdoNw0ouwmSJTEm9cglOOmsg/TMiFHZLe2sEoN5M7LgJTj9oHH0gxklfnQe66S1w==
@@ -8393,6 +8413,11 @@ sass-loader@7.2.0:
     pify "^4.0.1"
     semver "^5.5.0"
 
+sax@0.5.x:
+  version "0.5.8"
+  resolved "https://registry.yarnpkg.com/sax/-/sax-0.5.8.tgz#d472db228eb331c2506b0e8c15524adb939d12c1"
+  integrity sha1-1HLbIo6zMcJQaw6MFVJK25OdEsE=
+
 sax@^1.2.4, sax@~1.2.4:
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
@@ -8612,6 +8637,11 @@ slash@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/slash/-/slash-2.0.0.tgz#de552851a1759df3a8f206535442f5ec4ddeab44"
   integrity sha512-ZYKh3Wh2z1PpEXWr0MpSBZ0V6mZHAQfYevttO11c51CaWjGTaadiKZ+wVt1PbMlDV5qhMFslpZCemhwOK7C89A==
+
+slashes@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/slashes/-/slashes-1.0.5.tgz#204798f6c632014d609b5d89b6a57a7aaf70828d"
+  integrity sha1-IEeY9sYyAU1gm12JtqV6eq9wgo0=
 
 slice-ansi@^2.1.0:
   version "2.1.0"
@@ -9123,6 +9153,11 @@ thunky@^1.0.2:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/thunky/-/thunky-1.0.3.tgz#f5df732453407b09191dae73e2a8cc73f381a826"
   integrity sha512-YwT8pjmNcAXBZqrubu22P4FYsh2D4dxRmnWBOL8Jk8bUcRUtc5326kx32tuTmFDAZtLOGEVNl8POAR8j896Iow==
+
+timelabel@^1.0.2:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/timelabel/-/timelabel-1.2.0.tgz#7b99a4e276b643498a8323a5d55a5adcf561f356"
+  integrity sha1-e5mk4na2Q0mKgyOl1Vpa3PVh81Y=
 
 timers-browserify@^2.0.4:
   version "2.0.11"
@@ -9926,6 +9961,13 @@ xml-name-validator@^3.0.0:
   resolved "https://registry.yarnpkg.com/xml-name-validator/-/xml-name-validator-3.0.0.tgz#6ae73e06de4d8c6e47f9fb181f78d648ad457c6a"
   integrity sha512-A5CUptxDsvxKJEU3yO6DuWBSJz/qizqzJKOMIfUJHETbBw/sFaDxgd6fxm1ewUaM0jZ444Fc5vC5ROYurg/4Pw==
 
+xml2js@~0.2.8:
+  version "0.2.8"
+  resolved "https://registry.yarnpkg.com/xml2js/-/xml2js-0.2.8.tgz#9b81690931631ff09d1957549faf54f4f980b3c2"
+  integrity sha1-m4FpCTFjH/CdGVdUn69U9PmAs8I=
+  dependencies:
+    sax "0.5.x"
+
 xmlchars@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/xmlchars/-/xmlchars-2.1.1.tgz#ef1a81c05bff629c2280007f12daca21bd6f6c93"
@@ -10001,3 +10043,52 @@ yargs@^12.0.2:
     which-module "^2.0.0"
     y18n "^3.2.1 || ^4.0.0"
     yargs-parser "^11.1.1"
+
+youtube-api-search@^0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/youtube-api-search/-/youtube-api-search-0.0.5.tgz#9dd686de762ff2504a90288c57fce5a370643002"
+  integrity sha1-ndaG3nYv8lBKkCiMV/zlo3BkMAI=
+  dependencies:
+    axios "^0.7.0"
+
+youtube-api-v3-search@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/youtube-api-v3-search/-/youtube-api-v3-search-1.2.1.tgz#b7b2840d705026812c292ee40df4e9e6b558f662"
+  integrity sha512-CsH8oqX6wZ1b82Xdd4hddx3fSHEIaU85gdYGfQXNbaHOXq5GbaHs7Pro0mEnDt5WzQ5r0eI10gqGeM2mJolJDg==
+  dependencies:
+    browser-resolve "^1.11.3"
+
+youtube-best-video@0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/youtube-best-video/-/youtube-best-video-0.0.6.tgz#3b7a305725816a78c2e5fbe3035462a77ca3aa91"
+  integrity sha1-O3owVyWBanjC5fvjA1Rip3yjqpE=
+  dependencies:
+    youtube-search "~0.0.3"
+
+youtube-search@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/youtube-search/-/youtube-search-0.2.0.tgz#e5e375feb54b7d50da2855ebd2f42f2ee63c92eb"
+  integrity sha1-5eN1/rVLfVDaKFXr0vQvLuY8kus=
+  dependencies:
+    xml2js "~0.2.8"
+
+youtube-search@~0.0.3:
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/youtube-search/-/youtube-search-0.0.9.tgz#b08533964e3cad666334fae18066513d600734d3"
+  integrity sha1-sIUzlk48rWZjNPrhgGZRPWAHNNM=
+  dependencies:
+    xml2js "~0.2.8"
+
+ytsearch@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/ytsearch/-/ytsearch-1.0.4.tgz#cbe88cf10123c22320e31701a1651e91b40eed89"
+  integrity sha1-y+iM8QEjwiMg4xcBoWUekbQO7Yk=
+  dependencies:
+    colors "^1.0.3"
+    format-number "^1.0.2"
+    get-youtube-id "^0.1.3"
+    minimist "^1.1.0"
+    slashes "^1.0.5"
+    timelabel "^1.0.2"
+    youtube-best-video "0.0.6"
+    youtube-search "^0.2.0"

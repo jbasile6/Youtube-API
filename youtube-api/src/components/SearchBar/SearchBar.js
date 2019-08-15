@@ -9,7 +9,7 @@ class SearchBar extends Component {
     }
 
     componentDidUpdate() {
-        console.log(this.state.search)
+        // console.log(this.state.search)
     }
 
 
