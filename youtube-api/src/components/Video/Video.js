@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Video = props => {
-    
+const VideoData = props => {
+
     return (
         <li className='eachVideo'>
             <div className='video-thumbnail'>
-            <img alt={`${props.video.title} thumbnail`} src={props.video.snippet.thumbnails.default.url} />
+                <img alt={`${props.video.title} thumbnail`} src={props.video.snippet.thumbnails.default.url} />
             </div>
             <div className='video-info'>
                 <h4>{props.video.snippet.title}</h4>
@@ -16,4 +16,4 @@ const Video = props => {
 }
 
 
-export default Video;
+export default VideoData;

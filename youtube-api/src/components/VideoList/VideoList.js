@@ -1,5 +1,5 @@
 import React from 'react';
-import Video from '../Video/Video';
+import VideoData from '../Video/Video';
 
 
 const VideoList = props => {
@@ -9,7 +9,7 @@ const VideoList = props => {
     <div>
         <ul>
         {props.videoData.map(eachVideo => {
-            return <Video key={eachVideo.id.videoId} video={eachVideo}/>
+            return <VideoData key={eachVideo.id.videoId} video={eachVideo}/>
         })}
         </ul>
     </div>
